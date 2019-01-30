@@ -22,7 +22,7 @@ function addToCart(item){
 
 
 function viewCart() {
-  var cartTotal 
+  var cartTotal = 0;
 }
 
 
