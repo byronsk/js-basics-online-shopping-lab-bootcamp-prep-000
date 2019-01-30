@@ -17,7 +17,7 @@ function addToCart(item) {
   var obj = { itemName: 'bananas', itemPrice: 17};
   var objnew = JSON.stringify(obj);
   cart.push(objnew);
-  console.log(`${itemName}`+ "has been added to your cart.");
+  console.log(`${itemName}+ "has been added to your cart."`);
   return cart;
 }
 
