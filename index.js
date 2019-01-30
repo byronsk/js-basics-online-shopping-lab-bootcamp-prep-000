@@ -14,7 +14,7 @@ function setCart(c) {
 function addToCart(item) {
   var itemName = [];
   var itemPrice = Math.floor((Math.random()) * 100);
-  var obj = { itemName
+  var obj = { itemName: 'bananas', itemPrice: 17};
   var obj = JSON.parse({ [itemName]: itemPrice});
   cart.push(obj);
   console.log(`${itemName}`+ "has been added to your cart.");
